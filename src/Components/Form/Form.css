@@ -1,0 +1,51 @@
+.form-container {
+  width: 50%;
+  text-align: center;
+  margin: 3% auto;
+  padding: 2% 0;
+  display: flex;
+  flex-direction: column;
+  border: 0.8px solid silver;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+}
+
+.form-body-element {
+  margin-bottom: 3%;
+  padding: 2%;
+  font-size: 1.1rem;
+  border: 0.8px solid silver;
+}
+
+.form-textarea {
+  resize: none;
+  height: 10em;
+}
+
+.form-body-btn {
+  font-size: 1.1rem;
+  padding: 1.2% 0;
+  cursor: pointer;
+  border: none;
+  background-color: darkblue;
+  color: white;
+}
+
+.form-body-btn:hover {
+  background-color: rgb(3, 3, 177);
+}
+
+.error-msg {
+  background-color: tomato;
+  width: 75%;
+  margin: 3% auto;
+  padding: 2%;
+  font-size: 1.5rem;
+}

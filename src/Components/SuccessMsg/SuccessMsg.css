@@ -1,0 +1,29 @@
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 10% auto;
+  padding: 2%;
+  text-align: center;
+  border: 0.8px solid silver;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.msg-container h2 {
+  font-size: 2rem;
+}
+
+.msg-btn {
+  background-color: darkblue;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 30%;
+  margin: 5% auto;
+  padding: 2%;
+}
+
+.msg-btn:hover {
+  background-color: rgb(3, 3, 177);
+}
